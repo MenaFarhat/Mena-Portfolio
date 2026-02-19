@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // مهم جدًا للنشر على Netlify من GitHub
+  base: '/Mena-Portfolio/', // مهم جدًا للنشر على GitHub Pages
   build: {
-    outDir: 'dist', // المجلد الافتراضي للنشر
-    emptyOutDir: true, // يمسح مجلد dist قبل كل build
+    outDir: 'dist',       // المجلد الافتراضي للنشر
+    emptyOutDir: true,    // يمسح مجلد dist قبل كل build
   },
 })

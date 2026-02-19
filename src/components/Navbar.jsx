@@ -41,7 +41,7 @@ export default function Navbar() {
           whileTap={{ scale: 0.9 }}
           onClick={() => scrollToSection("home")}
           className="h-9 cursor-pointer  "
-          src="/assets/logo-black.svg"
+          src="https://MinaFarhat.github.io/Mena-Portfolio/assets/logo-black.svg"
           alt="Logo"
         />
 

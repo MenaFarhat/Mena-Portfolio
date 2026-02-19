@@ -119,7 +119,7 @@ export default function Contact() {
                 whileHover={{ scale: 1.05 }}
                 type="submit"
                 disabled={loading}
-                className={`bg-black text-[12px] xl:text-lg text-white px-3 py-2 rounded flex items-center gap-x-3 font-medium justify-center lg:w-fit w-fit md:w-[150px] h-[36px]  md:h-[40px] lg:h-full lg:w-auto lg:flex-1 hover:shadow-lg ${loading ? "cursor-not-allowed" : ""
+                className={`bg-black text-[12px] xl:text-lg text-white px-3 py-2 rounded flex items-center gap-x-3 font-medium justify-center lg:w-fit w-fit md:w-[150px] h-[36px]  md:h-[40px] lg:h-full lg:flex-1 hover:shadow-lg ${loading ? "cursor-not-allowed" : ""
                   }`}
               >
                 {loading ? (

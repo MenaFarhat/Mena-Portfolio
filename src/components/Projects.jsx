@@ -15,8 +15,8 @@ const projects = [
     description:
       "Graduation mobile & dashboard app with modern UI featuring smooth interactions and a clear workflow using Scrum while interactive components enhance usability and the layout remains engaging.",
     link: "https://github.com/MinaFarhat/belahdodfinal",
-    image: "/assets/all-projects-images/BelaHodod WallPaper.png",
-    preview: "/assets/ScreenShots/Belahodod ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/BelaHodod WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Belahodod ScreenShot.png",
   },
   {
     id: 2,
@@ -27,8 +27,8 @@ const projects = [
     description:
       "Designed a mobile and dashboard platform with clarity, usability, and smooth navigation while adapting to evolving client feedback to create an intuitive interface with consistent visuals and interactive elements enhancing user experience.",
     link: "https://www.behance.net/gallery/243815425/ecoTransferz-Full-UIUX-Design-Prototype",
-    image: "/assets/all-projects-images/ecoTransferz WallPaper.png",
-    preview: "/assets/ScreenShots/ecotransferz ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/ecoTransferz WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/ecotransferz ScreenShot.png",
   },
   {
     id: 3,
@@ -39,8 +39,8 @@ const projects = [
     description:
       "Designed a modern music app with clean visuals and intuitive navigation focusing on smooth interactions and a user-friendly interface while creating engaging layouts to enhance the overall listening experience.",
     link: "https://www.behance.net/gallery/221293003/Music-App-design",
-    image: "/assets/all-projects-images/Music App WallPaper.png",
-    preview: "/assets/ScreenShots/Music App ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Music App WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Music App ScreenShot.png",
   },
   {
     id: 4,
@@ -51,8 +51,8 @@ const projects = [
     description:
       "Designed web and dashboard interfaces for the tourism and hotels authority focusing on structured content, accessibility, modern visual hierarchy, and adjusting the design to meet client feedback.",
     link: "https://www.behance.net/gallery/237275785/Website-of-the-SGA-for-Tourism-and-Hotel-Training",
-    image: "/assets/all-projects-images/Syrian Tourism Authority WallPaper.png",
-    preview: "/assets/ScreenShots/Syrian Tourism Authority ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Syrian Tourism Authority WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Syrian Tourism Authority ScreenShot.png",
   },
   {
     id: 5,
@@ -63,8 +63,8 @@ const projects = [
     description:
       "Built a healthcare mobile and dashboard app for an e-commerce pharmacy using Agile methodology focused on smooth interactions, usability, intuitive flows, and clean interface.",
     link: "https://github.com/MinaFarhat/MEDIPHARMA",
-    image: "/assets/all-projects-images/MEDIPHARMA WallPaper.png",
-    preview: "/assets/ScreenShots/Medipharma ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/MEDIPHARMA WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Medipharma ScreenShot.png",
   },
   {
     id: 6,
@@ -75,8 +75,8 @@ const projects = [
     description:
       "Built a social media mobile app for university, focusing on smooth interactions, responsive UI, and seamless user experience while exploring coding and interface design.",
     link: "https://github.com/MinaFarhat/Di-Va",
-    image: "/assets/all-projects-images/DiVa WallPaper.png",
-    preview: "/assets/ScreenShots/Diva ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/DiVa WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Diva ScreenShot.png",
   },
   {
     id: 7,
@@ -87,8 +87,8 @@ const projects = [
     description:
       "Designed a data-driven dashboard for a client, focusing on clear layouts, smooth interactions, and usability while adapting to feedback. Interactive elements enhanced the user experience and maintained visual consistency.",
     link: "https://www.behance.net/gallery/228033535/ESTRATIJIYA",
-    image: "/assets/all-projects-images/ESTRATIJIYA WallPaper.png",
-    preview: "/assets/ScreenShots/ESTRATIJIYA ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/ESTRATIJIYA WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/ESTRATIJIYA ScreenShot.png",
   },
   {
     id: 8,
@@ -99,8 +99,8 @@ const projects = [
     description:
       "Designed an accessible mobile app with inclusive design principles, focusing on usability, smooth interactions, and intuitive navigation. The interface adapts to user needs and enhances overall accessibility while maintaining visual clarity.",
     link: "https://www.behance.net/gallery/224126851/Disabled-Persons",
-    image: "/assets/all-projects-images/Disabled People WallPaper.png",
-    preview: "/assets/ScreenShots/Disabled People ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Disabled People WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Disabled People ScreenShot.png",
   },
   {
     id: 9,
@@ -111,8 +111,8 @@ const projects = [
     description:
       "Designed desktop and dashboard interfaces focusing on simplicity, consistent visuals, smooth workflow, and intuitive interactions. The layout ensures clarity, efficiency, and a professional user experience across all screens.",
     link: "https://www.behance.net/gallery/237274995/Camera-Booth",
-    image: "/assets/all-projects-images/Camera Booth WallPaper.png",
-    preview: "/assets/ScreenShots/Camera Booth ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Camera Booth WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Camera Booth ScreenShot.png",
   },
   {
     id: 10,
@@ -123,8 +123,8 @@ const projects = [
     description:
       "Designed mobile and dashboard solutions for a beauty clinic focusing on intuitive navigation, smooth interactions, and efficient appointment management. The layout prioritizes user experience, clarity, and accessibility for all clients.",
     link: "https://www.behance.net/gallery/224592817/Roza-Clinic",
-    image: "/assets/all-projects-images/Roza Clinic WallPaper.png",
-    preview: "/assets/ScreenShots/Roza Clinic ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Roza Clinic WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Roza Clinic ScreenShot.png",
   },
   {
     id: 11,
@@ -135,8 +135,8 @@ const projects = [
     description:
       "Designed the official website for the Syrian Judo Federation, focusing on intuitive navigation, clear content structure, and modern visual hierarchy. The interface ensures accessibility and enhances the overall experience for athletes and visitors.",
     link: "https://www.behance.net/gallery/241622741/The-Syrian-General-Authority-for-Judo",
-    image: "/assets/all-projects-images/Syrian Judo Authority Website WallPaper.png",
-    preview: "/assets/ScreenShots/Syrian Judo Authority Website ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Syrian Judo Authority Website WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Syrian Judo Authority Website ScreenShot.png",
   },
   {
     id: 12,
@@ -147,8 +147,8 @@ const projects = [
     description:
       "Built a robust compiler simulating Flutter's compiler, implementing lexical and syntax analysis, constructing AST and classes, and generating HTML, CSS, and JavaScript output, ensuring efficient and maintainable code.",
     link: "https://github.com/MinaFarhat/compiler2",
-    image: "/assets/all-projects-images/Compiler Project WallPaper.png",
-    preview: "/assets/ScreenShots/Compiler Project ScreenShot.png",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Compiler Project WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Compiler Project ScreenShot.png",
   },
   {
     id: 13,
@@ -159,8 +159,8 @@ const projects = [
     description:
       "Worked on an operating systems project focused on automation and scripting, enhancing system-level programming skills, developing practical Bash scripts, and implementing solutions to manage and automate system tasks efficiently.",
     link: "",
-    image: "/assets/all-projects-images/Operating Systems Project WallPaper.png",
-    preview: "/assets/ScreenShots/Bash Script ScreenShot.webp",
+    image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Operating Systems Project WallPaper.png",
+    preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Bash Script ScreenShot.webp",
   },
 ];
 
