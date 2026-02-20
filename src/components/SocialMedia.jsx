@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { IoLogoBehance, IoLogoLinkedin } from "react-icons/io5";
 import { BiLogoGmail } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
-const SocialMedia = () => {
+const SocialMedia = ({ className }) => {
     return (
         <motion.div
-            className="flex items-center md:gap-x-5 gap-x-3 mt-10 lg:mt-14 "
+            className={`flex items-center md:gap-x-5 gap-x-3  ${className} xl:mt-14 `}
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 1 }}

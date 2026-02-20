@@ -6,7 +6,7 @@ import SocialMedia from "../components/SocialMedia";
 export default function Home() {
   return (
     <div className="mt-20" id="home">
-      <div className="flex justify-between py-10 items-center px-5 xl:px-28 lg:px-10 lg:flex-row flex-col-reverse">
+      <div className="flex justify-between py-10 lg:pb-0 xl:pb-7  items-center px-5 xl:px-28 lg:px-10 lg:flex-row flex-col-reverse">
 
         <motion.div
           className="lg:w-[45%]"
@@ -65,7 +65,7 @@ export default function Home() {
           >
             Passionate about technology, I am a Software Engineer specializing in Mobile Application Development and UI/UX Design. I focus on creating innovative and user-friendly solutions while continuously improving my technical and creative skills. My goal is to grow as a developer and contribute to meaningful projects that make a positive impact in the technology industry.
           </motion.p>
-          <SocialMedia />
+          <SocialMedia className="lg:mt-5 mt-6 xl:mt-8" />
 
         </motion.div>
 

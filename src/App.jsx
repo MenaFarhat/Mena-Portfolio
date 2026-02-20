@@ -11,7 +11,9 @@ import CustomCursor from './utils/CursorAnimation'
 export default function App() {
   return (
     <div className='font-sora scroll-smooth overflow-x-hidden'>
-      <CustomCursor/>
+      <div className='lg:block hidden'>
+        <CustomCursor />
+      </div>
       <Navbar />
       <Home />
       <Skills />

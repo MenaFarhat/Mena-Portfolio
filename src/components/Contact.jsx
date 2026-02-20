@@ -130,7 +130,7 @@ export default function Contact() {
               </motion.button>
 
               <div className='flex items-center gap-x-2 lg:gap-x-5'>
-                <SocialMedia />
+                <SocialMedia className="lg:mt-14" />
               </div>
             </motion.div>
           </form>
