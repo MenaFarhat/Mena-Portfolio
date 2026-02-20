@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
 import { IoMdMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
@@ -13,7 +13,20 @@ export default function Contact() {
   const [showMessage, setShowMessage] = useState(false);
   const [messageText, setMessageText] = useState("");
   const [loading, setLoading] = useState(false);
-  const [isError, setIsError] = useState(false); // حالة الخطأ
+  const [isError, setIsError] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Check screen size on mount and resize
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth < 1024); // lg breakpoint
+    };
+
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -28,7 +41,7 @@ export default function Contact() {
       .then(
         (result) => {
           setMessageText("Message sent successfully!");
-          setIsError(false); // ناجح
+          setIsError(false);
           setShowMessage(true);
           e.target.reset();
           setLoading(false);
@@ -36,16 +49,13 @@ export default function Contact() {
         },
         (error) => {
           setMessageText("Oops! Something went wrong");
-          setIsError(true); // فشل
+          setIsError(true);
           setShowMessage(true);
           setLoading(false);
           setTimeout(() => setShowMessage(false), 2000);
         }
       );
   };
-  setTimeout(() => {
-    e.target.reset();
-  }, 300);
 
   return (
     <motion.div
@@ -65,7 +75,7 @@ export default function Contact() {
         Contact <span className='font-extrabold'>Me</span>
       </motion.h2>
 
-      <div className='flex justify-between items-center mt-8 lg:mt-16 flex-col  lg:flex-row'>
+      <div className='flex justify-between items-center mt-8 lg:mt-16 flex-col gap-1 lg:flex-row'>
         <motion.div
           initial={{ x: -50, opacity: 0 }}
           animate={isInView ? { x: 0, opacity: 1 } : { opacity: 0 }}
@@ -113,13 +123,13 @@ export default function Contact() {
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0 }}
               transition={{ duration: 0.8 }}
-              className='flex justify-between lg:items-end items-center md:gap-3 lg:gap-5  h-[50px]'
+              className='flex justify-between lg:items-end items-center md:gap-3 lg:gap-5 h-[50px]'
             >
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 type="submit"
                 disabled={loading}
-                className={`bg-black text-[12px] xl:text-lg text-white px-3 py-2 rounded flex items-center gap-x-3 font-medium justify-center lg:w-fit w-fit md:w-[150px] h-[36px]  md:h-[40px] lg:h-full lg:flex-1 hover:shadow-lg ${loading ? "cursor-not-allowed" : ""
+                className={`bg-black text-[12px] xl:text-lg text-white px-3 py-2 rounded flex items-center gap-x-3 font-medium justify-center lg:w-fit w-fit md:w-[150px] h-[36px] md:h-[40px] lg:h-full lg:flex-1 hover:shadow-lg ${loading ? "cursor-not-allowed" : ""
                   }`}
               >
                 {loading ? (
@@ -152,18 +162,32 @@ export default function Contact() {
           </p>
 
           <div className='font-semibold text-sm lg:text-xl flex flex-col mt-6 gap-2 lg:gap-4'>
-            <motion.a
-              whileHover={{ x: 5 }}
-              className='flex items-center gap-2 group'
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=mina.farhat333@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className='border-2 transition-all border-transparent group-hover:border-black rounded-full p-1'>
-                <IoMdMail className="w-4 h-4 lg:w-5 lg:h-5" />
-              </span>
-              mina.farhat333@gmail.com
-            </motion.a>
+            {/* Conditional email link */}
+            {isMobile ? (
+              <motion.a
+                whileHover={{ x: 5 }}
+                className='flex items-center gap-2 group'
+                href="mailto:mina.farhat333@gmail.com"
+              >
+                <span className='border-2 transition-all border-transparent group-hover:border-black rounded-full p-1'>
+                  <IoMdMail className="w-4 h-4 lg:w-5 lg:h-5" />
+                </span>
+                mina.farhat333@gmail.com
+              </motion.a>
+            ) : (
+              <motion.a
+                whileHover={{ x: 5 }}
+                className='flex items-center gap-2 group'
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=mina.farhat333@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className='border-2 transition-all border-transparent group-hover:border-black rounded-full p-1'>
+                  <IoMdMail className="w-4 h-4 lg:w-5 lg:h-5" />
+                </span>
+                mina.farhat333@gmail.com
+              </motion.a>
+            )}
 
             <motion.a
               whileHover={{ x: 5 }}
@@ -172,7 +196,7 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className='border-2 transition-all border-transparent group-hover:border-black rounded-full p-[5px]' >
+              <span className='border-2 transition-all border-transparent group-hover:border-black rounded-full p-[5px]'>
                 <FaPhone className="w-3 h-3 lg:w-4 lg:h-4" />
               </span>
               +963-937-956-046
