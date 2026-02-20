@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="px-5 xl:px-28 flex justify-between flex-col gap-4 xl:flex-row" id="about">
       <motion.div
-        className="xl:w-1/2"
+        className="xl:w-[48.5%]"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 80, damping: 10 }}
@@ -15,7 +15,7 @@ export default function About() {
       </motion.div>
 
       <motion.div
-        className="xl:w-1/2 pb-4"
+        className="xl:w-[48.5%] pb-4"
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 80, damping: 10, delay: 0.2 }}

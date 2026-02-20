@@ -65,7 +65,7 @@ export default function Contact() {
         Contact <span className='font-extrabold'>Me</span>
       </motion.h2>
 
-      <div className='flex justify-between items-center mt-8 lg:mt-16 flex-col lg:flex-row'>
+      <div className='flex justify-between items-center mt-8 lg:mt-16 flex-col  lg:flex-row'>
         <motion.div
           initial={{ x: -50, opacity: 0 }}
           animate={isInView ? { x: 0, opacity: 1 } : { opacity: 0 }}
@@ -113,7 +113,7 @@ export default function Contact() {
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0 }}
               transition={{ duration: 0.8 }}
-              className='flex justify-between items-end md:gap-3 lg:gap-5  h-[50px]'
+              className='flex justify-between lg:items-end items-center md:gap-3 lg:gap-5  h-[50px]'
             >
               <motion.button
                 whileHover={{ scale: 1.05 }}
