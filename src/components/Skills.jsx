@@ -5,6 +5,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { CgFigma } from "react-icons/cg";
 import { FaDartLang, FaFlutter } from "react-icons/fa6";
+import { experiences } from "../experiances";
 
 export default function Skills() {
   const [skills] = useState([
@@ -20,35 +21,7 @@ export default function Skills() {
     { id: 9, name: "Laravel", icon: <FaLaravel size={50} /> }
   ]);
 
-  const [experiences] = useState([
-    {
-      id: 1,
-      organization: "Damascus University",
-      role: "B.Sc. Informatics Engineering",
-      period: "Nov 2019 - Aug 2024",
-      description:
-        "Focused on Software Engineering & Information Systems, completing diverse projects using Java, C++, Flutter, PHP, Python, and more. Developed strong practical programming skills and applied fundamental UI/UX design principles in project work.",
-      logo: "https://MinaFarhat.github.io/Mena-Portfolio/assets/IT-logo.svg",
-    },
-    {
-      id: 2,
-      organization: "Flutter Development",
-      role: "Mobile Developer (Freelance & Training)",
-      period: "2022 - Present",
-      description:
-        "Worked on freelance and training projects developing mobile applications using Flutter. Gained hands-on experience building responsive, user-friendly apps and improved coding practices, problem-solving skills, and full-cycle app development.",
-      logo: "https://MinaFarhat.github.io/Mena-Portfolio/assets/Flutter.svg",
-    },
-    {
-      id: 3,
-      organization: "UI/UX Design",
-      role: "Designer (Freelance & Projects)",
-      period: "2023 - Present",
-      description:
-        "Worked on freelance and company projects designing interfaces and user experiences. Used Figma to create modern and attractive designs, focusing on usability and turning ideas into practical, user-centered solutions.",
-      logo: "https://MinaFarhat.github.io/Mena-Portfolio/assets/Figma.svg",
-    },
-  ]);
+
 
   return (
     <div className="mt-3 lg:mt-16" id="skills">
@@ -89,7 +62,7 @@ export default function Skills() {
           className="text-2xl lg:text-4xl text-center text-white"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
           My <span className="font-extrabold">Experience</span>
