@@ -95,7 +95,10 @@ export default function Projects() {
               src={hoverPreview.src}
               alt="preview"
               className="w-full h-28 object-containt rounded-lg mb-1 transition-transform duration-300 group-hover:scale-110"
-              loading="lazy"
+              onLoad={(e) => {
+                e.currentTarget.style.opacity = 1;
+              }}
+              loading="eager"
             />
             <span className="text-xs text-white font-semibold px-2 py-1 rounded">
               {hoverPreview.link ? "Visit Project" : "Preview Only"}
@@ -206,12 +209,15 @@ export default function Projects() {
                   >
 
                     {/* IMAGE */}
-                    <div className="relative w-full h-[270px] rounded-2xl overflow-hidden">
+                    <div className="relative w-full aspect-[16/12] rounded-2xl overflow-hidden">
                       <img
                         src={project.image}
                         alt={project.name}
                         className="w-full h-full object-cover rounded-xl transition-transform duration-500 group-hover:scale-105"
-                        loading="lazy"
+                        onLoad={(e) => {
+                          e.currentTarget.style.opacity = 1;
+                        }}
+                        loading="eager"
                       />
                     </div>
 

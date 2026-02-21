@@ -4,7 +4,7 @@ export const projects = [
         name: "Belahodod",
         category: "Graduation Project | Mobile & Dashboard App",
         role: "Flutter Developer, UI/UX Designer",
-        tools: "Flutter, Figma, Jira, Stack Overflow, Pinterest, Behance, Github",
+        tools: "Flutter, Figma, Jira, Github, Stack Overflow, Behance, Pinterest ",
         description:
             "Graduation mobile & dashboard app with modern UI featuring smooth interactions and a clear workflow using Scrum while interactive components enhance usability and the layout remains engaging.",
         link: "https://github.com/MinaFarhat/belahdodfinal",
@@ -52,7 +52,7 @@ export const projects = [
         name: "MediPharma",
         category: "University Project | Mobile & Dashboard App",
         role: "Flutter Developer, UI/UX Designer",
-        tools: "Flutter, Figma, Jira, Stack Overflow, Pinterest, Behance, Github",
+        tools: "Flutter, Figma, Jira, Github, Stack Overflow, Behance, Pinterest ",
         description:
             "Built a healthcare mobile and dashboard app for an e-commerce pharmacy using Agile methodology focused on smooth interactions, usability, intuitive flows, and clean interface.",
         link: "https://github.com/MinaFarhat/MEDIPHARMA",
@@ -64,7 +64,7 @@ export const projects = [
         name: "Di-Va",
         category: "University Project | Social Media App",
         role: "Flutter Developer, UI/UX Designer",
-        tools: "Flutter, Figma, Stack Overflow, Adobe, Pinterest, Behance, Github",
+        tools: "Flutter, Figma, Adobe, Github, Stack Overflow, Behance, Pinterest",
         description:
             "Built a social media mobile app for university, focusing on smooth interactions, responsive UI, and seamless user experience while exploring coding and interface design.",
         link: "https://github.com/MinaFarhat/Di-Va",
@@ -125,8 +125,7 @@ export const projects = [
         category: "Freelance Project | Web Design",
         role: "UI/UX Designer",
         tools: "Figma, Pinterest, Behance",
-        description:
-            "Designed the official website for the Syrian Judo Federation, focusing on intuitive navigation, clear content structure, and modern visual hierarchy. The interface ensures accessibility and enhances the overall experience for athletes and visitors.",
+        description: "Designed the official website for the Syrian Judo Federation with intuitive navigation, clear structure, and modern visual hierarchy, ensuring accessibility and better experience for athletes and visitors.",
         link: "https://www.behance.net/gallery/241622741/The-Syrian-General-Authority-for-Judo",
         image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Syrian Judo Authority Website WallPaper.png",
         preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Syrian Judo Authority Website ScreenShot.png",
@@ -149,8 +148,7 @@ export const projects = [
         category: "University Project | Bash Scripting",
         role: "Software Engineer, Bash Script Developer",
         tools: "Bash Script, Linux, Ubuntu, Stack Overflow",
-        description:
-            "Worked on an operating systems project focused on automation and scripting, enhancing system-level programming skills, developing practical Bash scripts, and implementing solutions to manage and automate system tasks efficiently.",
+       description: "Worked on an operating systems project focused on automation and scripting, enhancing programming skills, developing Bash scripts, and implementing solutions to manage system tasks.",
         link: "",
         image: "https://MinaFarhat.github.io/Mena-Portfolio/assets/all-projects-images/Operating Systems Project WallPaper.png",
         preview: "https://MinaFarhat.github.io/Mena-Portfolio/assets/ScreenShots/Bash Script ScreenShot.webp",
