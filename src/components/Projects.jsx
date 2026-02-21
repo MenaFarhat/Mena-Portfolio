@@ -236,7 +236,7 @@ export default function Projects() {
                       <h2 className="font-bold text-[#ffffff] uppercase text-lg mt-2">
                         {project.name}
                       </h2>
-                      <p className="text-sm text-[#BEBEBE] mt-0.5 flex-1 line-clamp-5">
+                      <p className="text-sm text-[#BEBEBE] mt-0.5 flex-1">
                         {project.description}
                       </p>
 
