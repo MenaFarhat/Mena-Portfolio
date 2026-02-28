@@ -38,7 +38,7 @@ const SocialMedia = ({ className }) => {
         },
         {
             icon: BsGithub,
-            link: "https://github.com/MinaFarhat",
+            link: "https://github.com/MenaFarhat",
             label: "GitHub"
         },
     ];

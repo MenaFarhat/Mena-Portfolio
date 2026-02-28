@@ -11,7 +11,7 @@ export default function About() {
         transition={{ type: "spring", stiffness: 80, damping: 10 }}
         viewport={{ once: true }}
       >
-        <img src="https://MinaFarhat.github.io/Mena-Portfolio/assets/about-me.svg" alt="About Me Illustration" className='w-full' />
+        <img src="https://MenaFarhat.github.io/Mena-Portfolio/assets/about-me.svg" alt="About Me Illustration" className='w-full' />
       </motion.div>
 
       <motion.div
