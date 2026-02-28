@@ -1,30 +1,73 @@
-# Mena Portfolio
+# Mena Farhat
 
-Welcome to my portfolio! This repository showcases a curated collection of my projects, designs, and work experience. It reflects my approach to creativity, problem-solving, and building engaging user experiences.
+Software Engineer | Flutter Developer | UI/UX Designer
 
-## Overview
-- Explore a variety of projects including web, mobile, and dashboard applications.
-- See clean layouts, intuitive navigation, and interactive components.
-- Learn more about my skills and professional journey.
+Welcome to my personal portfolio repository.  
+This portfolio reflects my journey as a Software Engineer, combining technical development skills with creative UI/UX design thinking.
 
-## Features
-- **Interactive Projects:** Each project includes previews and detailed descriptions.
-- **Responsive Design:** Works seamlessly on mobile, tablet, and desktop.
-- **Engaging Layouts:** Smooth transitions and organized sections for easy browsing.
-- **Professional Showcase:** Highlights experience and capabilities in design and development.
-
-## Demo
-Check out the live portfolio here: [Live Demo](#)
-
-## Usage
-Feel free to explore the projects, and use this portfolio as inspiration or reference for your own work.
-
-## Contact
-If you want to get in touch, you can reach me via:
-- **Email:** [mina.farhat333@gmail.com](mailto:mina.farhat333@gmail.com)
-- **LinkedIn:** [https://www.linkedin.com/authwall?trk=bf&trkInfo=AQH4QkCftdbMRAAAAZx3I3OQNZ50rviqY9Pl-1rHQMEXIi3jjbBRyPgQibrwlmD0Z1oruaFAUBYO4vCI61Xci8lA6RhrVavAPLH66uj95U5G1nzYxiJzlgJyVHIVFCFv1Bh5mt4=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmina-farhat-968ba8250](#)
-- **GitHub:** [https://github.com/MinaFarhat](#)
+🌐 **Live Portfolio:**  
+👉 https://menafarhat.github.io/Mena-Portfolio/
 
 ---
 
-Made with ❤️ to showcase creativity and professional work.
+## 👩‍💻 About Me
+
+I am a Software Engineering graduate from the Faculty of Informatics Engineering, Damascus University, specialized in Software Engineering and Information Systems.
+
+I build scalable mobile applications using Flutter and Dart, and design intuitive, user-centered experiences with a strong focus on UI/UX principles.
+
+My portfolio is built using React, showcasing my flexibility across different technologies and modern frontend ecosystems.
+
+---
+
+## 🚀 Technical Skills
+
+### 💻 Development
+- Flutter
+- Dart
+- React
+- REST APIs
+- Firebase
+- State Management (Bloc / Provider)
+- Clean Architecture
+- Git & GitHub
+
+### 🎨 Design
+- UI/UX Design
+- Figma
+- Responsive Design
+- User-Centered Design Principles
+
+---
+
+## 🌟 What This Portfolio Includes
+
+- Interactive project showcases
+- Clean and responsive layouts
+- Real-world Flutter applications
+- Dashboard systems
+- Graduation project work
+- UI/UX case studies
+
+---
+
+## 🎯 Professional Focus
+
+- Cross-platform Mobile Development
+- Scalable Application Architecture
+- Modern UI/UX Systems
+- Clean Code & Maintainable Structure
+
+---
+
+## 📫 Contact
+
+If you'd like to collaborate or discuss opportunities:
+
+- 📧 Email: mina.farhat333@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/mina-farhat-968ba8250  
+- 💻 GitHub: https://github.com/MenaFarhat  
+
+---
+
+Made with passion for technology, design, and continuous growth.
