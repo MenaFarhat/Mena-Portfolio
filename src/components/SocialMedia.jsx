@@ -33,7 +33,7 @@ const SocialMedia = ({ className }) => {
         },
         {
             icon: IoLogoBehance,
-            link: "https://www.behance.net/minafarhat",
+            link: "https://www.behance.net/MenaFarhat",
             label: "Behance"
         },
         {
