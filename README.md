@@ -2,32 +2,28 @@
 
 Software Engineer | Flutter Developer | UI/UX Designer
 
-Welcome to my personal portfolio repository.  
-This portfolio reflects my journey as a Software Engineer, combining technical development skills with creative UI/UX design thinking.
+Welcome to my personal portfolio!  
+This portfolio showcases my projects, designs, skills, and professional experience.  
 
 🌐 **Live Portfolio:**  
-👉 https://menafarhat.github.io/Mena-Portfolio/
+[🚀 View Live Portfolio](https://menafarhat.github.io/Mena-Portfolio/)
 
 ---
 
 ## 👩‍💻 About Me
 
-I am a Software Engineering graduate from the Faculty of Informatics Engineering, Damascus University, specialized in Software Engineering and Information Systems.
-
-I build scalable mobile applications using Flutter and Dart, and design intuitive, user-centered experiences with a strong focus on UI/UX principles.
-
-My portfolio is built using React, showcasing my flexibility across different technologies and modern frontend ecosystems.
+I am a Software Engineering graduate from the Faculty of Informatics Engineering, Damascus University, specialized in Software Engineering and Information Systems.  
+I build scalable mobile applications using Flutter and Dart, and design intuitive, user-centered experiences with a strong focus on UI/UX principles.  
 
 ---
 
 ## 🚀 Technical Skills
 
 ### 💻 Development
-- Flutter
-- Dart
+- Flutter & Dart
 - React
-- REST APIs
 - Firebase
+- REST APIs
 - State Management (Bloc / Provider)
 - Clean Architecture
 - Git & GitHub
@@ -40,34 +36,12 @@ My portfolio is built using React, showcasing my flexibility across different te
 
 ---
 
-## 🌟 What This Portfolio Includes
-
-- Interactive project showcases
-- Clean and responsive layouts
-- Real-world Flutter applications
-- Dashboard systems
-- Graduation project work
-- UI/UX case studies
-
----
-
-## 🎯 Professional Focus
-
-- Cross-platform Mobile Development
-- Scalable Application Architecture
-- Modern UI/UX Systems
-- Clean Code & Maintainable Structure
-
----
-
 ## 📫 Contact
 
-If you'd like to collaborate or discuss opportunities:
-
 - 📧 Email: mina.farhat333@gmail.com  
-- 💼 LinkedIn: https://www.linkedin.com/in/mina-farhat-968ba8250  
-- 💻 GitHub: https://github.com/MenaFarhat  
+- 💼 LinkedIn: [https://www.linkedin.com/in/mena-farhat-968ba8250/](https://www.linkedin.com/in/mena-farhat-968ba8250/)  
+- 💻 GitHub: [https://github.com/MenaFarhat](https://github.com/MenaFarhat)
 
 ---
 
-Made with passion for technology, design, and continuous growth.
+Made with ❤️ to showcase creativity, technical skills, and professional work.
