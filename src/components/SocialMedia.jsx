@@ -28,7 +28,7 @@ const SocialMedia = ({ className }) => {
         },
         {
             icon: IoLogoLinkedin,
-            link: "https://www.linkedin.com/in/mina-farhat-968ba8250",
+            link: "https://www.linkedin.com/in/mena-farhat-968ba8250/",
             label: "LinkedIn"
         },
         {
