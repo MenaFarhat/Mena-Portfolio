@@ -135,7 +135,7 @@ export default function Navbar() {
                     transition={{ type: "spring", stiffness: 300 }}
                   >
                     <a
-                      href="https://drive.google.com/file/d/1YGfROKPO4AKmrUz_ByXeNYGPSexZ9gIi/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/1iWkiLLqCmXrTE9CH5tEy0e3Cm9RJSasN/view?usp=sharing"
                       target="_blank"
                       className="relative inline-block w-full px-4 py-2 font-semibold group"
                     >
