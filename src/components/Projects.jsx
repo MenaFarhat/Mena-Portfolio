@@ -64,9 +64,9 @@ export default function Projects() {
   }, [slidesPerView, swiperInstance]);
 
   const handleSlideChange = (swiper) => {
-    setActiveIndex(swiper.activeIndex);
+    setActiveIndex(swiper.realIndex || swiper.activeIndex);
   };
-
+  const isMobile = slidesPerView === 1;
   return (
     <div
       className="bg-black px-5 lg:px-28 py-12 pb-20  lg:py-20 mt-3 relative "
@@ -294,18 +294,45 @@ export default function Projects() {
         </Swiper>
       </div>
 
-      {/* SWIPER DOTS */}
-      <div className="absolute lg:bottom-8 bottom-[37px] left-1/2 transform -translate-x-1/2 flex gap-3 ">
-        {projectChunks.map((_, idx) => (
-          <span
-            key={idx}
-            className={`transition-all duration-300 ${activeIndex === idx
-              ? "w-8 h-3 rounded-full bg-white"
-              : "w-3 h-3 rounded-full bg-zinc-900"
-              }`}
-          ></span>
-        ))}
-      </div>
+      {/* MOBILE PROGRESS */}
+      {isMobile ? (
+        <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">
+
+          {/* PROGRESS BAR */}
+          <div className="w-[140px] h-[4px] bg-zinc-800 rounded-full overflow-hidden">
+            <div
+              className="h-full bg-white transition-all duration-300"
+              style={{
+                width: `${((activeIndex + 1) / projectChunks.length) * 100}%`,
+              }}
+            />
+          </div>
+          {/* NUMBER */}
+          <div className="text-xs text-zinc-500 font-medium flex items-center gap-2">
+            <span>Step</span>
+
+            <span className="flex items-center gap-1">
+              <span className="text-white font-semibold tracking-wider">
+                {activeIndex + 1}
+              </span>
+
+              <span className="text-zinc-600">/ {projectChunks.length}</span>
+            </span>
+          </div>
+        </div>
+      ) : (
+        <div className="absolute lg:bottom-8 bottom-[37px] left-1/2 transform -translate-x-1/2 flex gap-3 ">
+          {projectChunks.map((_, idx) => (
+            <span
+              key={idx}
+              className={`transition-all duration-300 ${activeIndex === idx
+                ? "w-8 h-3 rounded-full bg-white"
+                : "w-3 h-3 rounded-full bg-zinc-900"
+                }`}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
