@@ -2,28 +2,28 @@ export const experiences = [
     {
         id: 1,
         organization: "Damascus University",
-        role: "B.Sc. Informatics Engineering",
+        role: "Bachelor of Science in Informatics Engineering",
         period: "Nov 2019 - Aug 2024",
         description:
-            "Focused on Software Engineering & Information Systems, completing diverse projects using Java, C++, Flutter, PHP, Python, and more. Developed strong practical programming skills and applied fundamental UI/UX design principles in project work.",
+            "Studied Software Engineering and Information Systems with hands-on academic projects in Java, C++, Flutter, PHP, and Python. Built strong practical programming skills and applied software engineering principles along with basic UI/UX design concepts in coursework.",
         logo: "assets/IT-logo.svg",
     },
     {
         id: 2,
-        organization: "Flutter Development",
-        role: "Mobile Developer (Freelance & Training)",
+        organization: "Flutter Development Experience",
+        role: "Flutter Developer",
         period: "2022 - Present",
         description:
-            "Worked on freelance and training projects developing mobile applications using Flutter. Gained hands-on experience building responsive, user-friendly apps and improved coding practices, problem-solving skills, and full-cycle app development.",
+            "Gained experience in Flutter development through training programs, freelance projects, and occasional work with companies. Built responsive mobile applications, collaborated on real-world projects, and improved skills in UI development, state management, and app performance optimization.",
         logo: "assets/Flutter.svg",
     },
     {
         id: 3,
-        organization: "UI/UX Design",
-        role: "Designer (Freelance & Projects)",
+        organization: "UI/UX Design Experience",
+        role: "UI/UX Designer",
         period: "2023 - Present",
         description:
-            "Worked on freelance and company projects designing interfaces and user experiences. Used Figma to create modern and attractive designs, focusing on usability and turning ideas into practical, user-centered solutions.",
+            "Designed user interfaces and user experiences for freelance and company projects using Figma. Focused on usability, visual hierarchy, and creating clean, user-centered designs that translate ideas into functional and intuitive products.",
         logo: "assets/Figma.svg",
     },
 ];

@@ -53,7 +53,7 @@ export default function Home() {
               </span>
             </motion.h2>
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
-              Based In <span className="font-extrabold">Syria and Lebanon.</span>
+              Based In <span className="font-extrabold">Worldwide</span>
             </motion.h2>
           </motion.div>
 
@@ -63,7 +63,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Passionate about technology, I am a Software Engineer specializing in Mobile Application Development and UI/UX Design. I focus on creating innovative and user-friendly solutions while continuously improving my technical and creative skills. My goal is to grow as a developer and contribute to meaningful projects that make a positive impact in the technology industry.
+            Software Engineer specializing in Mobile Development and UI/UX Design. I create clean, user-focused digital products that blend strong functionality with intuitive and modern design. I focus on building scalable Flutter applications with efficient architecture and thoughtful user experiences, aiming to deliver impactful and real-world software solutions.
           </motion.p>
           <SocialMedia className="lg:mt-5 mt-6 xl:mt-8" />
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaJs, FaReact, FaNodeJs, FaPython, FaDatabase, FaJava, FaAndroid, FaFire, FaGit, FaPlus, FaLaravel } from "react-icons/fa";
+import { FaJs, FaReact, FaNodeJs, FaPython, FaDatabase, FaJava, FaAndroid, FaFire, FaGit, FaPlus, FaLaravel, FaGithub, FaBehance } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { CgFigma } from "react-icons/cg";
@@ -11,14 +11,14 @@ export default function Skills() {
   const [skills] = useState([
     { id: 1, name: "Flutter", icon: <FaFlutter size={50} /> },
     { id: 2, name: "Dart", icon: <FaDartLang size={50} /> },
-    { id: 10, name: "Figma", icon: <CgFigma size={50} /> },
     { id: 3, name: "Android", icon: <FaAndroid size={50} /> },
-    { id: 4, name: "FireBase", icon: <FaFire size={50} /> },
-    { id: 5, name: "SQL", icon: <FaDatabase size={50} /> },
-    { id: 6, name: "Java", icon: <FaJava size={50} /> },
+    { id: 4, name: "Java", icon: <FaJava size={50} /> },
+    { id: 5, name: "FireBase", icon: <FaFire size={50} /> },
+    { id: 6, name: "SQL", icon: <FaDatabase size={50} /> },
     { id: 7, name: "Git", icon: <FaGit size={50} /> },
-    { id: 8, name: "Python", icon: <FaPython size={50} /> },
-    { id: 9, name: "Laravel", icon: <FaLaravel size={50} /> }
+    { id: 8, name: "GitHub", icon: <FaGithub size={50} /> },
+    { id: 9, name: "Figma", icon: <CgFigma size={50} /> },
+    { id: 10, name: "Behance", icon: <FaBehance size={50} /> }
   ]);
 
 

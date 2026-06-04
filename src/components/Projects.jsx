@@ -94,7 +94,7 @@ export default function Projects() {
             <img
               src={hoverPreview.src}
               alt="preview"
-              className="w-full h-28 object-fit:cover rounded-lg mb-1 transition-transform duration-300 group-hover:scale-110"
+              className="w-full h-28 object-cover rounded-lg mb-1 transition-transform duration-300 group-hover:scale-110"
               onLoad={(e) => {
                 e.currentTarget.style.opacity = 1;
               }}
