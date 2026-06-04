@@ -25,7 +25,7 @@ export default function Projects() {
 
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
-
+  const [imageLoaded, setImageLoaded] = useState({});
   // Handle responsive slides per view
   useEffect(() => {
     const handleResize = () => {
@@ -91,15 +91,30 @@ export default function Projects() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
           >
-            <img
-              src={hoverPreview.src}
-              alt="preview"
-              className="w-full h-28 object-cover rounded-lg mb-1 transition-transform duration-300 group-hover:scale-110"
-              onLoad={(e) => {
-                e.currentTarget.style.opacity = 1;
-              }}
-              loading="eager"
-            />
+
+
+            <div className="relative w-full h-28 overflow-hidden rounded-lg bg-zinc-800">
+              {/* Skeleton */}
+              <img
+                src={hoverPreview.src}
+                alt="preview"
+                className={`w-full h-28 object-cover transition-all duration-700
+                ${imageLoaded[hoverPreview.src]
+                    ? "blur-0 scale-100 opacity-100"
+                    : "blur-lg scale-110 opacity-100"
+                  }
+               `}
+                onLoad={(e) => {
+                  const src = hoverPreview.src;
+                  if (!imageLoaded[src]) {
+                    setImageLoaded((prev) => ({
+                      ...prev,
+                      [src]: true,
+                    }));
+                  }
+                }}
+              />
+            </div>
             <span className="text-xs text-white font-semibold px-2 py-1 rounded">
               {hoverPreview.link ? "Visit Project" : "Preview Only"}
             </span>
