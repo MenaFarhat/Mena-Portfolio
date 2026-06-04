@@ -309,14 +309,18 @@ export default function Projects() {
           </div>
           {/* NUMBER */}
           <div className="text-xs text-zinc-500 font-medium flex items-center gap-2">
-            <span>Step</span>
+            <span>Slide</span>
 
             <span className="flex items-center gap-1">
-              <span className="text-white font-semibold tracking-wider">
-                {activeIndex + 1}
+              <span className="text-white font-semibold tracking-widest">
+                {String(activeIndex + 1).padStart(2, "0")}
               </span>
 
-              <span className="text-zinc-600">/ {projectChunks.length}</span>
+              <span className="text-zinc-600">/</span>
+
+              <span className="text-zinc-500">
+                {String(projectChunks.length).padStart(2, "0")}
+              </span>
             </span>
           </div>
         </div>
